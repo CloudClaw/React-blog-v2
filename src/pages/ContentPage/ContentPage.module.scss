@@ -1,0 +1,12 @@
+.root {
+	min-height: 100vh;
+	& .content {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	& .addBtn{
+		width: 300px;
+		margin-left: 35px;
+		margin-top: 10px;
+	}
+}

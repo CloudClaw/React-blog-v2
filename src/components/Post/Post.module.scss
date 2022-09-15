@@ -1,0 +1,16 @@
+.root {
+	margin: 10px;
+	& .editBtn {
+		width: 100px;
+	}
+	& .delBtn {
+		width: 100px;
+	}
+	& .favbtn {
+		width: 100px;
+		& .heart{
+			height: 15px;
+			width: 15px;
+		}
+	}
+}
