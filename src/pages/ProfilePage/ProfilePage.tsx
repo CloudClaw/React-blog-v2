@@ -9,7 +9,7 @@ export const ProfilePage: React.FC = () => {
   const userCard = useAppSelector(selectUserData);
   const dispatch = useDispatch();
 
-  const [showInput, setShowInput] = React.useState(true);
+  const [showInput, setShowInput] = React.useState(false);
   const [nameValue, setNameValue] = React.useState(userCard?.name);
   const [mailValue, setMailValue] = React.useState(userCard?.email);
 
